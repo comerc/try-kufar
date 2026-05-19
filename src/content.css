@@ -1,0 +1,76 @@
+.kufar-usd-price-source {
+  display: inline;
+  margin-right: 4px;
+}
+
+.kufar-usd-rent-suffix {
+  display: inline-flex;
+  flex-basis: 100% !important;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+.kufar-usd-price-row {
+  align-items: center !important;
+}
+
+p.kufar-usd-price-row {
+  display: flex !important;
+  flex-wrap: wrap;
+  column-gap: 0 !important;
+  row-gap: 2px !important;
+  gap: 2px 0 !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: normal !important;
+}
+
+.kufar-usd-price-row--rent {
+  display: flex !important;
+  flex-wrap: wrap;
+  column-gap: 0 !important;
+  row-gap: 2px !important;
+  gap: 2px 0 !important;
+  overflow: visible !important;
+  text-overflow: clip !important;
+  white-space: normal !important;
+}
+
+span.kufar-usd-price {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px !important;
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: rgba(0, 128, 96, 0.1);
+  color: #08785f;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.kufar-usd-price-row > span.kufar-usd-price {
+  margin-left: 4px !important;
+}
+
+.kufar-usd-price-source + span.kufar-usd-price {
+  margin-left: 0 !important;
+}
+
+span.kufar-usd-price--no-left-gap {
+  margin-left: 0 !important;
+}
+
+.kufar-usd-price-row > span.kufar-usd-price.kufar-usd-price--no-left-gap {
+  margin-left: 0 !important;
+}
+
+span.kufar-usd-price[data-rate-state="stale"] {
+  background: rgba(128, 128, 128, 0.12);
+  color: #666;
+}
