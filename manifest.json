@@ -15,6 +15,7 @@
   "content_scripts": [
     {
       "matches": [
+        "https://www.kufar.by/account/saved/*",
         "https://auto.kufar.by/*",
         "https://re.kufar.by/*"
       ],
